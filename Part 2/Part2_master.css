@@ -1,0 +1,21 @@
+body{
+  /*background: gray;*/
+  background: url(https://images.unsplash.com/photo-1560710990-9f5d4197b5a2?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center fixed;
+  background-repeat:no-repeat;
+}
+
+div{
+  background: skyblue;
+  border: blueviolet;
+  border-width: thick; /* 10 px */
+  border-style: dotted;
+
+  }
+
+p{
+  color: yellow;
+}
+span{
+  background: beige;
+  color: black;
+}
