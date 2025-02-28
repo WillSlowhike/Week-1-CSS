@@ -1,4 +1,4 @@
-# CSS Basics
+# Week 1 - CSS 
 
 Code Included for Assignments listed below:
 - 1.1 - Intro to CSS
