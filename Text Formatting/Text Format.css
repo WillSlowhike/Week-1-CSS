@@ -1,0 +1,11 @@
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #3498db;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
+}
