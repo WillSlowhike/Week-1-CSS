@@ -3,6 +3,7 @@
 /*  http://www.w3schools.com/cssref/css_selectors.asp */
 /*  https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors  */
 /*  https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors */
+
 /*Class selectors start with a dot . */
 body{
   background-color: rgb(87, 87, 87);
@@ -11,6 +12,8 @@ body{
 .firstDiv{
   color: blue;
   background-color: #45a9406f;
+  font-weight: 900;
+
 }
 
 .secondDiv{
@@ -19,12 +22,20 @@ body{
 
 .thirdDiv{
   color: green;
+  text-decoration: wavy;
+
 }
 
 .fourthDiv{
   color: tomato;
   background-color: #8080806f;
 } 
+
+.fifthDiv{
+  color: yellow;
+  background-color: #8080806f;
+  font-size: larger;
+}
 
 /* Use an id to single out html elements*/
 
