@@ -10,3 +10,4 @@ Code Included for Assignments listed below:
 - 1.7 - CSS quiz⭐️
 - 1.8 - CSS Test ❇️
 
+"Go Back to Main Menu" button may differ in size based on device and resolution used. 
