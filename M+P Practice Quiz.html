@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Face</title>
+    <style>
+        body {
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin:0;
+        }
+        .face {
+            position: absolute;
+            width: 200px;
+            height: 250px;
+            background-color: yellow;
+        }
+        .eye {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            background-color: white;
+        }
+        .eye-left {
+            top: 20px;
+            left: 20px;
+        }
+        .eye-right {
+            top: 20px;
+            right: 20px;
+        }
+        .pupil {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: black;
+            top: 20px;
+            left: 20px;
+        }
+        .mouth {
+            position: absolute;
+            width: 200px;
+            height: 120px;
+            background-color: black;
+            bottom: 20px;
+            left: 0;
+        }
+        .teeth {
+            position: absolute;
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            top: 10px;
+        }
+        .tooth {
+            width: 25px;
+            height: 25px;
+            background-color: white;
+        }
+        .tongue {
+            position: absolute;
+            width: 80px;
+            height: 50px;
+            background-color: red;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .tongue-line {
+            position: absolute;
+            width: 5px;
+            height: 50px;
+            background-color: black;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="face">
+        <div class="eye eye-left">
+            <div class="pupil"></div>
+        </div>
+        <div class="eye eye-right">
+            <div class="pupil"></div>
+        </div>
+        <div class="mouth">
+            <div class="teeth">
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+            </div>
+            <div class="tongue">
+                <div class="tongue-line"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
